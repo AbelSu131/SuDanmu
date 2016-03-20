@@ -8,7 +8,13 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
+#import "DanmakuView.h"
+
+@interface ViewController ()<DanmakuDelegate>{
+    IBOutlet UIImageView *_imgView;
+    IB
+    
+}
 
 @end
 
@@ -16,7 +22,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)didReceiveMemoryWarning {

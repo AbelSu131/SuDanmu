@@ -13,6 +13,20 @@
 		BC4CF1361C9D8F2B001A32C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC4CF1341C9D8F2B001A32C2 /* Main.storyboard */; };
 		BC4CF1381C9D8F2B001A32C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC4CF1371C9D8F2B001A32C2 /* Assets.xcassets */; };
 		BC4CF13B1C9D8F2B001A32C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC4CF1391C9D8F2B001A32C2 /* LaunchScreen.storyboard */; };
+		BC4CF1491C9D91EC001A32C2 /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC4CF1431C9D91EC001A32C2 /* 0.jpg */; };
+		BC4CF14A1C9D91EC001A32C2 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC4CF1441C9D91EC001A32C2 /* 1.jpg */; };
+		BC4CF14B1C9D91EC001A32C2 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC4CF1451C9D91EC001A32C2 /* 2.jpg */; };
+		BC4CF14C1C9D91EC001A32C2 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC4CF1461C9D91EC001A32C2 /* 3.jpg */; };
+		BC4CF14D1C9D91EC001A32C2 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC4CF1471C9D91EC001A32C2 /* 4.jpg */; };
+		BC4CF14E1C9D91EC001A32C2 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC4CF1481C9D91EC001A32C2 /* 5.jpg */; };
+		BC4CF1611C9D943A001A32C2 /* DanmakuView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4CF1511C9D943A001A32C2 /* DanmakuView.m */; };
+		BC4CF1621C9D943A001A32C2 /* DanmakuBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4CF1541C9D943A001A32C2 /* DanmakuBaseModel.m */; };
+		BC4CF1631C9D943A001A32C2 /* DanmakuTime.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4CF1561C9D943A001A32C2 /* DanmakuTime.m */; };
+		BC4CF1641C9D943A001A32C2 /* DanmakuRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4CF1591C9D943A001A32C2 /* DanmakuRenderer.m */; };
+		BC4CF1651C9D943A001A32C2 /* DanmakuRetainer.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4CF15B1C9D943A001A32C2 /* DanmakuRetainer.m */; };
+		BC4CF1661C9D943A001A32C2 /* DanmakuFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4CF15E1C9D943A001A32C2 /* DanmakuFactory.m */; };
+		BC4CF1671C9D943A001A32C2 /* DanmakuFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4CF1601C9D943A001A32C2 /* DanmakuFilter.m */; };
+		BC4CF1691C9D9468001A32C2 /* danmakufile in Resources */ = {isa = PBXBuildFile; fileRef = BC4CF1681C9D9468001A32C2 /* danmakufile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +40,27 @@
 		BC4CF1371C9D8F2B001A32C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC4CF13A1C9D8F2B001A32C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC4CF13C1C9D8F2B001A32C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC4CF1431C9D91EC001A32C2 /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
+		BC4CF1441C9D91EC001A32C2 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		BC4CF1451C9D91EC001A32C2 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		BC4CF1461C9D91EC001A32C2 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		BC4CF1471C9D91EC001A32C2 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		BC4CF1481C9D91EC001A32C2 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		BC4CF1501C9D943A001A32C2 /* DanmakuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DanmakuView.h; sourceTree = "<group>"; };
+		BC4CF1511C9D943A001A32C2 /* DanmakuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DanmakuView.m; sourceTree = "<group>"; };
+		BC4CF1531C9D943A001A32C2 /* DanmakuBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DanmakuBaseModel.h; sourceTree = "<group>"; };
+		BC4CF1541C9D943A001A32C2 /* DanmakuBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DanmakuBaseModel.m; sourceTree = "<group>"; };
+		BC4CF1551C9D943A001A32C2 /* DanmakuTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DanmakuTime.h; sourceTree = "<group>"; };
+		BC4CF1561C9D943A001A32C2 /* DanmakuTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DanmakuTime.m; sourceTree = "<group>"; };
+		BC4CF1581C9D943A001A32C2 /* DanmakuRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DanmakuRenderer.h; sourceTree = "<group>"; };
+		BC4CF1591C9D943A001A32C2 /* DanmakuRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DanmakuRenderer.m; sourceTree = "<group>"; };
+		BC4CF15A1C9D943A001A32C2 /* DanmakuRetainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DanmakuRetainer.h; sourceTree = "<group>"; };
+		BC4CF15B1C9D943A001A32C2 /* DanmakuRetainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DanmakuRetainer.m; sourceTree = "<group>"; };
+		BC4CF15D1C9D943A001A32C2 /* DanmakuFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DanmakuFactory.h; sourceTree = "<group>"; };
+		BC4CF15E1C9D943A001A32C2 /* DanmakuFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DanmakuFactory.m; sourceTree = "<group>"; };
+		BC4CF15F1C9D943A001A32C2 /* DanmakuFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DanmakuFilter.h; sourceTree = "<group>"; };
+		BC4CF1601C9D943A001A32C2 /* DanmakuFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DanmakuFilter.m; sourceTree = "<group>"; };
+		BC4CF1681C9D9468001A32C2 /* danmakufile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = danmakufile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +93,17 @@
 		BC4CF12A1C9D8F2B001A32C2 /* SuDanmu */ = {
 			isa = PBXGroup;
 			children = (
+				BC4CF14F1C9D943A001A32C2 /* HJDanmaku */,
 				BC4CF12E1C9D8F2B001A32C2 /* AppDelegate.h */,
 				BC4CF12F1C9D8F2B001A32C2 /* AppDelegate.m */,
 				BC4CF1311C9D8F2B001A32C2 /* ViewController.h */,
 				BC4CF1321C9D8F2B001A32C2 /* ViewController.m */,
+				BC4CF1681C9D9468001A32C2 /* danmakufile */,
 				BC4CF1341C9D8F2B001A32C2 /* Main.storyboard */,
 				BC4CF1371C9D8F2B001A32C2 /* Assets.xcassets */,
 				BC4CF1391C9D8F2B001A32C2 /* LaunchScreen.storyboard */,
 				BC4CF13C1C9D8F2B001A32C2 /* Info.plist */,
+				BC4CF1421C9D91D6001A32C2 /* img */,
 				BC4CF12B1C9D8F2B001A32C2 /* Supporting Files */,
 			);
 			path = SuDanmu;
@@ -77,6 +115,64 @@
 				BC4CF12C1C9D8F2B001A32C2 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC4CF1421C9D91D6001A32C2 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				BC4CF1431C9D91EC001A32C2 /* 0.jpg */,
+				BC4CF1441C9D91EC001A32C2 /* 1.jpg */,
+				BC4CF1451C9D91EC001A32C2 /* 2.jpg */,
+				BC4CF1461C9D91EC001A32C2 /* 3.jpg */,
+				BC4CF1471C9D91EC001A32C2 /* 4.jpg */,
+				BC4CF1481C9D91EC001A32C2 /* 5.jpg */,
+			);
+			name = img;
+			sourceTree = "<group>";
+		};
+		BC4CF14F1C9D943A001A32C2 /* HJDanmaku */ = {
+			isa = PBXGroup;
+			children = (
+				BC4CF1501C9D943A001A32C2 /* DanmakuView.h */,
+				BC4CF1511C9D943A001A32C2 /* DanmakuView.m */,
+				BC4CF1521C9D943A001A32C2 /* Model */,
+				BC4CF1571C9D943A001A32C2 /* Renderer */,
+				BC4CF15C1C9D943A001A32C2 /* Util */,
+			);
+			path = HJDanmaku;
+			sourceTree = "<group>";
+		};
+		BC4CF1521C9D943A001A32C2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BC4CF1531C9D943A001A32C2 /* DanmakuBaseModel.h */,
+				BC4CF1541C9D943A001A32C2 /* DanmakuBaseModel.m */,
+				BC4CF1551C9D943A001A32C2 /* DanmakuTime.h */,
+				BC4CF1561C9D943A001A32C2 /* DanmakuTime.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BC4CF1571C9D943A001A32C2 /* Renderer */ = {
+			isa = PBXGroup;
+			children = (
+				BC4CF1581C9D943A001A32C2 /* DanmakuRenderer.h */,
+				BC4CF1591C9D943A001A32C2 /* DanmakuRenderer.m */,
+				BC4CF15A1C9D943A001A32C2 /* DanmakuRetainer.h */,
+				BC4CF15B1C9D943A001A32C2 /* DanmakuRetainer.m */,
+			);
+			path = Renderer;
+			sourceTree = "<group>";
+		};
+		BC4CF15C1C9D943A001A32C2 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				BC4CF15D1C9D943A001A32C2 /* DanmakuFactory.h */,
+				BC4CF15E1C9D943A001A32C2 /* DanmakuFactory.m */,
+				BC4CF15F1C9D943A001A32C2 /* DanmakuFilter.h */,
+				BC4CF1601C9D943A001A32C2 /* DanmakuFilter.m */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +233,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC4CF14D1C9D91EC001A32C2 /* 4.jpg in Resources */,
+				BC4CF14B1C9D91EC001A32C2 /* 2.jpg in Resources */,
+				BC4CF1491C9D91EC001A32C2 /* 0.jpg in Resources */,
+				BC4CF14E1C9D91EC001A32C2 /* 5.jpg in Resources */,
+				BC4CF1691C9D9468001A32C2 /* danmakufile in Resources */,
 				BC4CF13B1C9D8F2B001A32C2 /* LaunchScreen.storyboard in Resources */,
 				BC4CF1381C9D8F2B001A32C2 /* Assets.xcassets in Resources */,
 				BC4CF1361C9D8F2B001A32C2 /* Main.storyboard in Resources */,
+				BC4CF14C1C9D91EC001A32C2 /* 3.jpg in Resources */,
+				BC4CF14A1C9D91EC001A32C2 /* 1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,9 +253,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC4CF1661C9D943A001A32C2 /* DanmakuFactory.m in Sources */,
+				BC4CF1631C9D943A001A32C2 /* DanmakuTime.m in Sources */,
+				BC4CF1641C9D943A001A32C2 /* DanmakuRenderer.m in Sources */,
+				BC4CF1621C9D943A001A32C2 /* DanmakuBaseModel.m in Sources */,
+				BC4CF1611C9D943A001A32C2 /* DanmakuView.m in Sources */,
+				BC4CF1671C9D943A001A32C2 /* DanmakuFilter.m in Sources */,
 				BC4CF1331C9D8F2B001A32C2 /* ViewController.m in Sources */,
 				BC4CF1301C9D8F2B001A32C2 /* AppDelegate.m in Sources */,
 				BC4CF12D1C9D8F2B001A32C2 /* main.m in Sources */,
+				BC4CF1651C9D943A001A32C2 /* DanmakuRetainer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
-// 弹幕支持从右
-//
+// 弹幕支持从右往左滚动，支持中间、顶部和底部弹幕
+// 支持表情，自定义内容文字大小以及颜色
 
 #import "ViewController.h"
 
@@ -32,6 +32,7 @@
     _imgView.animationDuration = 20;
     [_imgView startAnimating];
     
+    // 创建DanmakuView对象，进行配置，并添加到View上
     CGRect rect = CGRectMake(0, 2, CGRectGetWidth(self.view.bounds), CGRectGetHeight(self.view.bounds)-4);
     DanmakuConfiguration *configuration = [[DanmakuConfiguration alloc]init];
     configuration.duration = 6.5;
@@ -93,10 +94,12 @@
 }
 
 #pragma mark -
+// 获取视频播放时间
 - (float)danmakuViewGetPlayTime:(DanmakuView *)danmakuView{
     return _slider.value*120.0;
 }
 
+// 是否正在加载视频中
 - (BOOL)danmakuViewIsBuffering:(DanmakuView *)danmakuView{
     return NO;
 }

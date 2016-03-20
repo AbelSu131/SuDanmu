@@ -70,6 +70,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="_curTime" destination="2r0-qh-9cR" id="dsQ-Wv-scN"/>
+                        <outlet property="_imgView" destination="4uU-PG-sYU" id="xvO-13-lH1"/>
+                        <outlet property="_slider" destination="wgT-m2-CyA" id="Job-gV-L2U"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

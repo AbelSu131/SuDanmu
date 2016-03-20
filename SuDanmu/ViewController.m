@@ -1,9 +1,4 @@
-//
-//  ViewController.m
-//  SuDanmu
-//
-//  Created by AbelSu on 16/3/19.
-//  Copyright © 2016年 AbelSu. All rights reserved.
+// 弹幕支持从右
 //
 
 #import "ViewController.h"
@@ -102,11 +97,15 @@
     return _slider.value*120.0;
 }
 
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (BOOL)danmakuViewIsBuffering:(DanmakuView *)danmakuView{
+    return NO;
 }
+
+- (void)danmakuViewPerpareComplete:(DanmakuView *)danmakuView{
+    [_danmakuView start];
+}
+
+
+
 
 @end

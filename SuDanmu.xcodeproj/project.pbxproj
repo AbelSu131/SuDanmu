@@ -409,6 +409,7 @@
 				BC4CF1411C9D8F2B001A32C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

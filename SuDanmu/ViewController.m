@@ -12,8 +12,13 @@
 
 @interface ViewController ()<DanmakuDelegate>{
     IBOutlet UIImageView *_imgView;
-    IB
+    IBOutlet UILabel *_curTime;
+    IBOutlet UISlider *_slider;
     
+    DanmakuView *_danmakuView;
+    NSDate *_startDate;
+    
+    NSTimer *_timer;
 }
 
 @end
@@ -22,6 +27,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    NSMutableArray *newArr = [NSMutableArray arrayWithCapacity:6];
+    for (int i=0;i<6;i++) {
+        UIImage *img = [UIImage imageNamed:[NSString stringWithFormat:@"%d.jpg",i]];
+        [newArr addObject:img];
+    }
+    _imgView.animationImages = newArr;
+    _
+    
 }
 
 - (void)didReceiveMemoryWarning {
